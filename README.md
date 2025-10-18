@@ -1,25 +1,46 @@
-# Twitter Network Analysis — Stanford Network Analysis Project
-This project is developed completely in Python to analyze Twitter data from the Stanford Network Analysis Project (SNAP).
-The main goal is to analyze and create Ego Networks — visualizing and understanding how users are connected and how information flows in a social network.
+# Twitter Sentiment Analysis
 
-## Overview
-The project explores a Twitter dataset to understand the connectivity and influence among users using key graph theory concepts such as:
-- Degree Centrality
-- Closeness Centrality
-- Betweenness Centrality
-    ### Ego Networks
-        An Ego Network consists of:
-        A focal node (ego node)
-        The nodes directly connected to it (alters)
-        And the connections among those alters (if any)
-This type of analysis helps visualize and quantify how central or influential a user is within a network.
+This project explores how people express opinions on Twitter using Python and NLP techniques.  
+I worked on this during my college course to analyze tweets, clean the data, and visualize overall sentiment trends.  
+The goal was to understand public reactions and emotions around specific topics using real-time tweets.
 
-## Pipeline
-- Download the Dataset: Obtain the Twitter dataset from the Stanford Network Analysis Project (SNAP)
-- Load the Dataset:Use Python libraries such as pandas and networkx to load and preprocess the data.
-- Compute Centrality Measures
+---
 
-    -   Degree Centrality: Measures the number of direct connections a node has.
-    -   Closeness Centrality: Indicates how close a node is to all other nodes in the network.
-    -   Betweenness Centrality: Shows how often a node appears on the shortest paths between other nodes.
-- Build Ego Networks: Construct and visualize ego networks for selected nodes to study their local influence and structure.
+## Objective
+To analyze tweets and classify them into positive, negative, or neutral sentiments, and visualize the patterns through graphs and word clouds.
+
+---
+
+## Tools & Libraries Used
+- Python  
+- Pandas, NumPy  
+- Tweepy (for fetching tweets)  
+- TextBlob / NLTK (for sentiment analysis)  
+- Matplotlib, Seaborn  
+- WordCloud  
+
+---
+
+## Project Workflow
+**1. Data Collection** – Used Tweepy to fetch tweets related to a particular topic or hashtag.  
+**2. Data Cleaning** – Removed URLs, mentions, emojis, punctuations, and stopwords.  
+**3. Sentiment Analysis** – Classified tweets as positive, negative, or neutral using TextBlob polarity scores.  
+**4. Visualization** – Created bar graphs, pie charts, and word clouds to represent sentiment distribution and top-used words.  
+**5. Insights** – Observed public opinions, trending hashtags, and emotional tone of discussions.
+
+---
+
+## Conclusion
+This project gave me hands-on experience with unstructured text data and applying Natural Language Processing.
+It helped me understand how social media data like Twitter can be analyzed to find public mood and trending opinions.
+---
+
+## Key Learnings
+Working with real-world Twitter data using APIs  
+Cleaning and preprocessing text data for NLP tasks  
+Performing sentiment analysis and visualizing results  
+Understanding data storytelling using social media content  
+
+
+
+
