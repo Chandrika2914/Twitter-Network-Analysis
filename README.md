@@ -33,6 +33,7 @@ To analyze tweets and classify them into positive, negative, or neutral sentimen
 ## Conclusion
 This project gave me hands-on experience with unstructured text data and applying Natural Language Processing.
 It helped me understand how social media data like Twitter can be analyzed to find public mood and trending opinions.
+
 ---
 
 ## Key Learnings
